@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/cat-api.css" />
     <title>Document</title>
   </head>
   <body>
-    <label for="breeds">Choose a breed:</label>
-    <select id="breeds" name="breeds"></select>
-    <div class="breedContainer"></div>
+    <label class="title" for="breeds">Choose a breed:</label>
+    <select class="title hidden" id="breeds" name="breeds"></select>
+    <span class="loader"></span>
+    <div class="card hidden"></div>
     <script type="module" src="./js/cat-api.js"></script>
   </body>
 </html>
