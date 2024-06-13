@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Document</title>
-    <script type="module" crossorigin src="/vanilla-app-template/assets/vendor-bdb8a163.js"></script>
-    <script type="module" crossorigin src="/vanilla-app-template/assets/cat-api-97143c91.js"></script>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-03/assets/vendor-ae6d56ab.js"></script>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-03/assets/cat-api-efde5ecd.js"></script>
+    <link rel="stylesheet" href="/goit-advancedjs-hw-03/assets/vendor-e5212ee8.css">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-03/assets/catPortfolio-789a0291.css">
   </head>
   <body>
-    <label for="breeds">Choose a breed:</label>
-    <select id="breeds" name="breeds"></select>
-    <div class="breedContainer"></div>
+    <label class="title" for="breeds">Choose a breed:</label>
+    <select class="title hidden" id="breeds" name="breeds"></select>
+    <span class="loader"></span>
+    <div class="card hidden"></div>
     
   </body>
 </html>
